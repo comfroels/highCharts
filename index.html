@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Using highcharts">
+	<title>HighCharts</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script src="http://code.highcharts.com/highcharts.js"></script>
+	<script src="http://code.highcharts.com/modules/exporting.js"></script>
+	<script type="text/javascript" src="js/dark-unica.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1>Playing with Highcharts! <small>Love the charts!</small></h1>	
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<form role="form">
+					<div class="form-group">
+				    	<label for="exampleInputEmail1">Name</label>
+				    	<input type="text" class="form-control" id="name" placeholder="Enter Name">
+				  	</div>
+				  	<div class="form-group">
+				    	<label for="exampleInputPassword1">Rate PHP (1-10)</label>
+				    	<input type="text" class="form-control" id="php" placeholder="(1-10)">
+				  	</div>
+				  	<div class="form-group">
+				    	<label for="exampleInputPassword1">Rate Ruby (1-10)</label>
+				    	<input type="text" class="form-control" id="ruby" placeholder="(1-10)">
+				  	</div>
+				  	<div class="form-group">
+				    	<label for="exampleInputPassword1">Rate Javascript (1-10)</label>
+				    	<input type="text" class="form-control" id="javascript" placeholder="(1-10)">
+				  	</div>
+				  
+				  	<button class="btn btn-primary">Submit</button>
+				</form>
+			</div>
+			<div class="col-md-9">
+				<div id="myChart" style="min-width: 310px; max-width: 800px; height: 400px; margin: 0 auto"></div>
+			</div>
+		</div>
+		
+	</div>
+</body>
+</html>

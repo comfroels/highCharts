@@ -5,18 +5,21 @@
 	<meta name="description" content="Using highcharts">
 	<title>HighCharts</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
+	
 	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
 	<script src="http://code.highcharts.com/highcharts.js"></script>
 	<script src="http://code.highcharts.com/modules/exporting.js"></script>
 	<script type="text/javascript" src="js/dark-unica.js"></script>
+	<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h1>Playing with Highcharts! <small>Love the charts!</small></h1>	
+				<h1>Playing with Highcharts! <small>And Tablesorter!</small></h1>	
 			</div>
 		</div>
 		<div class="row">
@@ -44,6 +47,22 @@
 			</div>
 			<div class="col-md-9">
 				<div id="myChart" style="min-width: 310px; max-width: 800px; height: 400px; margin: 0 auto"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<table class="tablesorter" id="myTable">
+					<thead>
+						<tr>
+							<th>Name</th>
+							<th>Language</th>
+							<th>Rating</th>
+						</tr>
+					</thead>
+					<tbody id="tableBody">
+						
+					</tbody>
+				</table>
 			</div>
 		</div>
 		
